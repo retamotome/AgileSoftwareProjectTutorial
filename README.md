@@ -27,7 +27,7 @@ Key phases included:
   - Project planning, team formation, and project setup.
   - Goal: define vision, roles, and a high-level roadmap.
   - Companion video: [Agile Team — Identification and Management](https://github.com/retamotome/SelfDirectedTraining/blob/main/AgileSoftwareEngineering/2026-02-22_AgileTeam/README.md)   
-  - 🏆[Agile Code Conduct 敏捷團隊行為守則](./AgileCodeConduct/README.md)
+  - 🏆[Agile Code Conduct 敏捷團隊行為守則](./ProjectInitiationPhase/Agile-Code-of-Conduct.md)
 
 - [Business Development](./BusinessDevelopmentPhase/README.md)
   - Market research, business case development, and stakeholder engagement.  
