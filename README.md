@@ -41,6 +41,8 @@ This tutorial describes software engineering activities across development, test
 
 ---
 
+## About Test Engineering
+
 > [!note]
 > Both the **Business Development** and **Software Development** phases include guidance on:  
 > - Software engineering practices
