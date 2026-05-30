@@ -1,6 +1,6 @@
 # Business Requirement Definition Practical Tips   
 
-> [!important]  
+> [!note]  
 > ![BY NC ND](../../img/Cc-by-nc-sa.png)  
 > Business Requirement Definition Practical Tips © 2026 by Jen Yuan Pan is licensed under [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).  
 
@@ -39,7 +39,7 @@ Note that memory dumps do **not** guarantee data is written to disk. Many enterp
 
 Understanding and clearly defining **System Modes** and **System States** is essential for robust requirement analysis. This ensures the system behaves predictably under all circumstances, supports troubleshooting, and meets both operational and safety requirements. 
 
-> [!important] 
+> [!note] 
 > + A well-designed system should define at least three distinct Modes, each with its own set of States. (A system with only a single state is generally considered a poor design in software engineering.) 
 > + Both Modes and States should clearly **specify their respective capabilities and restrictions**. This approach is fundamental to building **quality-assurable** systems. 
 > + Properly defined Modes and States **control what the system is allowed to do**, rather than merely reflecting its current activity. 
