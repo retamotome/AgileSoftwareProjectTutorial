@@ -53,5 +53,5 @@ This tutorial describes software engineering activities across development, test
 
 ## License
 
-![BY NC SA](./img/Cc-by-nc-sa.png)
-This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). See the license link for details.
+![BY NC SA](./img/Cc-by-nc-sa.png)  
+This work is is licensed under [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).
