@@ -21,19 +21,29 @@ For more background, see:
 
 ## Key Expected Deliverables
 
-- Well-defined business and system requirements.
-- A virtualized system framework for early validation and collaboration.
-- A BDD-based structure for acceptance testing.
-- Acceptance test cases and corresponding automated test scripts.
+- Software Engineering: 
+    - Well-defined business and system requirements.  
+    - A virtualized system framework for early validation and collaboration.  
+
+- Test Engineering:  
+    - A Test framework for acceptance testing.  
+    - Acceptance test cases and corresponding automated test scripts.  
 
 ## Acceptance Criteria
 
-- Requirements are clearly documented, unambiguous, and reviewable.
-- The system framework is available in a virtual environment.
-- A BDD framework is defined for acceptance test automation.
-- Each test step is maintained as a reusable unit in the Test Case Pool.
-- Acceptance test cases and automated scripts are implemented and traceable to requirements.
-- The BDD workflow assembles test scripts by reusing steps from the Test Case Pool.
-- Test automation supports both script generation and execution.
-- At least 80% of error-handling scenarios are covered by test cases.
+- Software Engineering:  
+    - Requirements are clearly documented, unambiguous, and reviewable.  
+    - The system framework is available in a virtual environment.  
 
+- Test Engineering:  
+    - A Test framework is defined for acceptance test automation.  
+    - Acceptance test cases and automated scripts are implemented and traceable to requirements.  
+    - Test automation supports both script generation and execution.  
+    - At least 80% of error-handling scenarios are covered by test cases.  
+    - Test Case Pool:  
+        - Each test step is maintained as a reusable unit in the Test Case Pool.  
+        - The BDD workflow assembles test scripts by reusing steps from the Test Case Pool.
+
+
+## Milestone
+![Business Milestone](./img/BusinessDevMilestone.drawio.svg)
