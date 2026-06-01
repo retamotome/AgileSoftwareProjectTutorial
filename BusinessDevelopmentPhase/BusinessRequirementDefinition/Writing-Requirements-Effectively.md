@@ -19,7 +19,7 @@ For more background, see:
 - [Agile and Software Engineering](https://github.com/retamotome/SelfDirectedTraining/blob/main/AgileSoftwareEngineering/2025-11-09_AgileProjectMgt/README.md)
 - [Business Requirement Definition](https://github.com/retamotome/SelfDirectedTraining/blob/main/AgileSoftwareEngineering/2025-12-08_BusinessReqDef/README.md)
 
-Recommended books (available via BPM):
+Recommended books:
 - [Specification by Example 中文版：團隊如何交付正確的軟體](https://www.tenlong.com.tw/products/9789862019481)
 - [領域驅動設計：軟體核心複雜度的解決方法](https://www.books.com.tw/products/0010821330)
 
@@ -27,7 +27,7 @@ Recommended books (available via BPM):
 
 ## Procedure
 
-Requirements are created following the approach in [Business Requirement Definition](https://github.com/retamotome/SelfDirectedTraining/blob/main/AgileSoftwareEngineering/2025-12-08_BusinessReqDef/README.md). Each requirement should include tables (see the [requirement template](../../templates/Feature-Requirement-Template.txt)) which be presented using the method from [Specification by Example](https://www.tenlong.com.tw/products/9789862019481):
+Requirements are created following the approach in [Business Requirement Definition](https://github.com/retamotome/SelfDirectedTraining/blob/main/AgileSoftwareEngineering/2025-12-08_BusinessReqDef/README.md). Each requirement should include tables (see the [requirement template](./Feature-Requirement-Template.txt)) which be presented using the method from [Specification by Example](https://www.tenlong.com.tw/products/9789862019481):
 
 - **Risk and Solution**
 - **Normal Case**

@@ -171,7 +171,7 @@ SCA: Software Composition Analysis
 ### **關鍵風險提醒**
 
 * 不可直接將 CI/CD 結果部署至機台
-* 必須經過模擬或 staging（如 HRSim）
+* 必須經過模擬或 staging 
 * 所有控制程式需可追溯版本
 
 ***

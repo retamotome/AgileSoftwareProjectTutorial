@@ -26,10 +26,10 @@ This tutorial describes software engineering activities across development, test
 ### Business Development
 
 - Market research, business case development, and stakeholder engagement.
-- [Business requirements definition](./BusinessDevelopment/README.md) to capture and validate stakeholder needs.
-  - Elicit, document, and validate stakeholder requirements.
-- Define acceptance criteria and use behavior-driven development (BDD) techniques to ensure requirements are testable and aligned with business goals.
-- refer to the [Business Development Phase](./BusinessDevelopment/README.md) for details.
+- [Business requirements definition](./BusinessDevelopmentPhase/BusinessRequirementDefinition/Practical-Tips.md) to capture and validate stakeholder needs.
+  - Elicit, document, and validate stakeholder requirements.  
+- This phase intentionally **excludes** implementation-level **technical** details.  
+- refer to the [Business Development Phase](./BusinessDevelopmentPhase/README.md) for details.
 
 ### Software Development
 
@@ -39,7 +39,6 @@ This tutorial describes software engineering activities across development, test
 
 - Post-deployment bug fixes, performance improvements, and feature enhancements.
 
----
 
 ## About Test Engineering
 
@@ -49,7 +48,7 @@ This tutorial describes software engineering activities across development, test
 > - Test engineering practices
 
 > [!important] 
-> Test engineering in Business Development focuses on validating business requirements using behavior-driven techniques (BDD). Test engineering in Software Development focuses on verifying implementation correctness using test-driven approaches (TDD).
+> Test engineering in **Business** Development focuses on validating **business** requirements using **behavior**-driven techniques (BDD). Test engineering in **Software** Development focuses on verifying **implementation** correctness using **test**-driven approaches (TDD).
 
 ## License
 

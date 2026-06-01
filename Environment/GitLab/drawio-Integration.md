@@ -151,7 +151,7 @@ sudo gitlab-ctl tail nginx
 After completing the above steps, you can access Draw.io via:
 
 ```
-https://h15gitlab.hiwin.tw/drawio/
+https://your-GitLab-server/drawio/
 ```
 
 ## Enable Diagrams.net Integration

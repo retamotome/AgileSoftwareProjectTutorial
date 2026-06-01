@@ -13,6 +13,10 @@ The initiation phase establishes the foundation for a successful Agile software 
 - Establish core Agile practices such as sprint planning, daily stand-ups, sprint reviews, and retrospectives.  
 - Define a clear project vision and measurable objectives to align stakeholders and the team on expected outcomes and success criteria.  
 
+## Environment Setup
+- Conduct a feasibility analysis of initial candidate solutions.
+- When possible, provide a virtual environment so developers can implement and validate solutions without relying on physical hardware.  
+
 ## Team formation and roles
 
 - Identify required roles and assemble a cross-functional team with the necessary skills and experience.  

@@ -29,8 +29,8 @@ For full details, see the [official documentation](https://docs.gitlab.com/admin
 ```sh
 cd /etc/gitlab/ssl/
 openssl req -x509 -sha256 -newkey rsa:2048 -nodes -keyout <certificate-of-container-registry>.key \
-	-subj "/CN=<containerreg.example.com>" \
-	-addext "subjectAltName = DNS:<containerreg.example.com>" \
+	-subj "/CN=<your-container-domain.example.com>" \
+	-addext "subjectAltName = DNS:<your-container-domain.example.com>" \
 	-days 3650 -out <certificate-of-container-registry>.crt
 ```
 
@@ -40,7 +40,7 @@ openssl req -x509 -sha256 -newkey rsa:2048 -nodes -keyout <certificate-of-contai
 In `/etc/gitlab/gitlab.rb`, specify the Container Registry domain and the paths to its SSL certificate and key:
 
 ```sh
-registry_external_url 'https://<containerreg.example.com>'
+registry_external_url 'https://<your-container-domain.example.com>'
 registry_nginx['ssl_certificate'] = "/etc/gitlab/ssl/<certificate-of-container-registry>.crt"
 registry_nginx['ssl_certificate_key'] = "/etc/gitlab/ssl/<certificate-of-container-registry>.key"
 ```
@@ -49,12 +49,12 @@ registry_nginx['ssl_certificate_key'] = "/etc/gitlab/ssl/<certificate-of-contain
 ## Setting Up the Docker Client
 Add this line to your `/etc/hosts` file so your machine can find the domain:
 ```sh
-10.177.201.236 <containerreg.example.com>
+<your-GitLab IP> <your-container-domain.example.com>
 ```
 ### Get the Registry Certificate
 
 ```sh
-openssl s_client -showcerts -connect <containerreg.example.com>:443 < /dev/null | \
+openssl s_client -showcerts -connect <your-container-domain.example.com>:443 < /dev/null | \
 	sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > ca.crt
 ```
 
@@ -62,14 +62,14 @@ openssl s_client -showcerts -connect <containerreg.example.com>:443 < /dev/null 
 
 **a. Create the Docker certs directory:**
 ```sh
-sudo mkdir -p /etc/docker/certs.d/<containerreg.example.com>/
-sudo mkdir -p /etc/docker/certs.d/://<containerreg.example.com>
+sudo mkdir -p /etc/docker/certs.d/<your-container-domain.example.com>/
+sudo mkdir -p /etc/docker/certs.d/://<your-container-domain.example.com>
 ```
 
 **b. Copy the certificate:**
 ```sh
-sudo cp ca.crt /etc/docker/certs.d/<containerreg.example.com>/
-sudo cp ca.crt /etc/docker/certs.d/://<containerreg.example.com>
+sudo cp ca.crt /etc/docker/certs.d/<your-container-domain.example.com>/
+sudo cp ca.crt /etc/docker/certs.d/://<your-container-domain.example.com>
 ```
 
 **c. Restart Docker to apply the changes:**
@@ -96,7 +96,7 @@ sudo update-ca-certificates
 
 Now log in with your GitLab credentials:
 ```sh
-docker login <containerreg.example.com>
+docker login <your-container-domain.example.com>
 ```
 
 > **Troubleshooting:**
