@@ -147,7 +147,7 @@ System states represent the current condition or phase of the system within a gi
 
 ### Redundancy and Failover
 
-Provide **high availability and service continuity** by ensuring critical components can automatically recover or switch to backup systems when failures occur.  
+Provide **high availability** and **service continuity** by ensuring critical components can automatically recover or switch to backup systems when failures occur.  
 
 * Deploy **hot standby / failover systems** for critical services
 * Use **replication mechanisms** (sync or async based on RPO requirements)
@@ -218,12 +218,19 @@ To reduce data loss and system risks during power failures, implement a layered 
 **Startup Recovery**    
 * Detect abnormal shutdown and resume or roll back safely.  
 
-## Using External Storage
+
+## Data Storage Strategy
+
+### Data Format
+For configuration files, adopt **human-readable formats** such as JSON or YAML to simplify maintenance and reduce the need for complex queries.   
+When handling data that requires frequent searching, filtering, or analytical processing, leverage a **database system** to ensure optimal performance, scalability, and efficiency.  
+
+### Using External Storage
 
 Always perform a **full format** when initializing external storage (e.g., SD cards, HDDs, removable media).
 
-* Full format scans and **identifies bad sectors**, marking them unusable
-* Ensures **data integrity** and more reliable long-term operation  
+* Full format scans and **identifies bad sectors**, marking them unusable.  
+* Ensures **data integrity** and more reliable long-term operation.  
 
 > [!important]  
 > **Avoid** using **shared folders or network-shared storage** for critical data:

@@ -5,10 +5,7 @@
 > Business Development Phase © 2026 by Jen Yuan Pan is licensed under [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).  
 
 This phase focuses on defining clear, testable business requirements and preparing a foundation for behavior-driven validation.  
-Teams should establish acceptance criteria early and use Behavior-Driven Development (BDD) practices to keep requirements aligned with business goals.
-For guidance on writing requirements, see [Writing Requirements Effectively](./Writing-Requirements-Effectively.md).  
-For practical guidance, see [Practical System Design Considerations](./BusinessRequirementDefinition/Practical-Tips.md).    
-
+Teams should establish acceptance criteria early and use Behavior-Driven Development (BDD) practices to keep requirements aligned with business goals.  
 
 > [!important]  
 > Business Development Phase intentionally **excludes** implementation-level **technical** details.
@@ -18,6 +15,10 @@ For more background, see:
 - [Agile and Software Engineering](https://github.com/retamotome/SelfDirectedTraining/blob/main/AgileSoftwareEngineering/2025-11-09_AgileProjectMgt/README.md)
 - [Business Requirement Definition](https://github.com/retamotome/SelfDirectedTraining/blob/main/AgileSoftwareEngineering/2025-12-08_BusinessReqDef/README.md)
 
+
+## Guidance
++ [Practical System Design Considerations](./BusinessRequirementDefinition/Practical-Tips.md).    
++ [Writing Requirements Effectively](./Writing-Requirements-Effectively.md).  
 
 ## Key Expected Deliverables
 
