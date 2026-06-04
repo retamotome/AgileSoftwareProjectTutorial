@@ -7,7 +7,7 @@
 This phase focuses on defining clear, testable business requirements and preparing a foundation for behavior-driven validation.  
 Teams should establish acceptance criteria early and use Behavior-Driven Development (BDD) practices to keep requirements aligned with business goals.
 For guidance on writing requirements, see [Writing Requirements Effectively](./Writing-Requirements-Effectively.md).  
-For practical guidance, see [Business Requirement Analysis Practical Tips](./BusinessRequirementDefinition/Practical-Tips.md).    
+For practical guidance, see [Practical System Design Considerations](./BusinessRequirementDefinition/Practical-Tips.md).    
 
 
 > [!important]  

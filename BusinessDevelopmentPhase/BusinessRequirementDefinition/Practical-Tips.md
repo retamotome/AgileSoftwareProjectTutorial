@@ -1,8 +1,8 @@
-# Business Requirement Analysis Practical Tips   
+# Practical System Design Considerations   
 
 > [!note]  
 > ![BY NC ND](../../img/Cc-by-nc-sa.png)  
-> Business Requirement Analysis Practical Tips © 2026 by Jen Yuan Pan is licensed under [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).  
+> Practical System Design Considerations © 2026 by Jen Yuan Pan is licensed under [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).  
 
 ## Overview 
 
@@ -145,19 +145,95 @@ System states represent the current condition or phase of the system within a gi
 
 ## Failure Tolerance Strategy 
 
-**Packaging Modules in Docker Images**   
+### Redundancy and Failover
 
-Due to the Cortex architecture’s limited resources compared to traditional PCs, the system does not support full redundancy for failure recovery. Instead, each module is containerized as an independent Docker image. If a module fails, only the affected Docker instance needs to be restarted, minimizing system disruption.   
+Provide **high availability and service continuity** by ensuring critical components can automatically recover or switch to backup systems when failures occur.  
 
-**A/B Update Mechanism**   
+* Deploy **hot standby / failover systems** for critical services
+* Use **replication mechanisms** (sync or async based on RPO requirements)
+* Ensure failover nodes have **independent power sources**
+
+
+### Packaging Modules in Docker Images   
+
+Most systems do not implement full redundancy due to cost and complexity. Instead, a **containerized architecture** is used, where each module runs as an independent Docker container.
+
+* Failures are **isolated per module**
+* Only the affected container needs to be **restarted**
+
+### A/B Update Mechanism   
 
 To ensure safe updates and prevent system corruption, the A/B Update strategy uses two identical volumes managed by an Update Manager. New packages are deployed to volume B, and the system reboots from volume B: 
  * If booting from volume B fails, the system automatically reverts to volume A, erases volume B, and restores it from volume A. 
  * If booting from volume B succeeds, volume A is erased and synchronized with the contents of volume B.   
 
+## Load Balancing Strategy
+
+### CPU Affinity
+
+To prevent heavy processes from overwhelming shared CPU resources and starving other critical services, **CPU affinity should be carefully designed and enforced**.
+
+* Assign CPU cores explicitly to high-load or real-time processes to ensure predictable performance.
+* Isolate critical services from non-critical workloads to avoid resource contention.
+* Avoid unrestricted process scheduling, which may lead to CPU saturation, increased latency, or system stalls.
+* Consider NUMA awareness (if applicable) to further optimize performance on multi-socket systems.
+
+Proper CPU affinity planning helps achieve **deterministic execution**, improved system stability, and better overall resource utilization.
+
+### NIC Binding (Network Interface Bonding / Teaming)
+
+NIC binding combines multiple network interfaces to improve both **bandwidth availability** and **fault tolerance**.
+
+* **Increased bandwidth**: Traffic can be distributed across multiple NICs, reducing bottlenecks.
+* **High availability**: If a single network interface fails, traffic is automatically redirected to remaining interfaces.
+* **Improved reliability**: Reduces the risk of connection loss due to single point of failure.
+
+Depending on the system design, NIC binding can be configured in modes such as:
+
+* Active-backup (failover-focused)
+* Load balancing (throughput-focused)
+* LACP (Link Aggregation Control Protocol, IEEE 802.3ad) for dynamic link aggregation
+
+This ensures **resilient and scalable network performance**, especially in high-throughput or mission-critical environments.
+
+## Power Failure Handling
+
+To reduce data loss and system risks during power failures, implement a layered protection strategy.
+
+**Power Protection**  
+* Use UPS and redundant power supplies to provide buffer time.  
+
+**Graceful Shutdown**   
+* Detect power loss and trigger controlled shutdown (flush data, stop services, move hardware to safe state).  
+
+**Data Protection**  
+* Use journaling file systems and ensure critical data is written (fsync/checkpoints).  
+
+**Checkpoint & Recovery**  
+* Periodically save system state and support safe restart from last checkpoint.  
+
+**Transaction Safety**  
+* Use atomic operations and retry mechanisms to prevent partial updates.  
+
+**Startup Recovery**    
+* Detect abnormal shutdown and resume or roll back safely.  
+
+## Using External Storage
+
+Always perform a **full format** when initializing external storage (e.g., SD cards, HDDs, removable media).
+
+* Full format scans and **identifies bad sectors**, marking them unusable
+* Ensures **data integrity** and more reliable long-term operation  
+
+> [!important]  
+> **Avoid** using **shared folders or network-shared storage** for critical data:
+> * Data transfer is **not encrypted by default** (e.g., SMB/NFS), unless explicitly configured.  
+> * Exposes risk of **data interception, leakage, or unauthorized access**.  
+
+
 ## Security Consideration 
 
-* All external connections must be secured with encryption. 
+All external connections must be secured with encryption. 
 
 ### Network Interface 
 
@@ -170,7 +246,6 @@ To ensure safe updates and prevent system corruption, the A/B Update strategy us
 
 * All ports are **denied** by default; only explicitly required ports are whitelisted to minimize exposure. 
 
- 
 
 ### API Guard 
 
