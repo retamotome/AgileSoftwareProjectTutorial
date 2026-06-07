@@ -4,6 +4,8 @@
 > ![BY NC ND](../img/Cc-by-nc-sa.png)   
 > Project Initiation Phase © 2023 by Jen Yuan Pan is licensed under [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).
 
+## Overview 
+
 The initiation phase establishes the foundation for a successful Agile software project. Key activities include defining the project vision, assembling the team, and setting up initial plans and practices.
 
 
