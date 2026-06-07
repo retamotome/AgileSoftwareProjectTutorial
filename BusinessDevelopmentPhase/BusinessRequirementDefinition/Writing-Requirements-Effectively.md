@@ -1,6 +1,6 @@
 # Writing Requirements Effectively
 
-> [!note]  
+> [!note]    
 > ![BY NC ND](../../img/Cc-by-nc-sa.png)  
 > Writing Requirements Effectively © 2026 by Jen Yuan Pan is licensed under [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).  
 
@@ -11,13 +11,13 @@ The heart of the **Agile mindset** is simple: **do the right things, and do thin
 
 At this stage, focus on defining requirements at the **business level**—avoid technical details.  
 All **Feature Requirements** should include **Specification by Example** scenario tables. These help create clear, testable acceptance criteria align with BDD principle.  
-> [!note]   
+> [!note]     
 > BDD (Behavior-Driven Development) is mainly used for acceptance tests.
 
 ## Prerequisites
 For more background, see:
-- [Agile and Software Engineering](https://github.com/retamotome/SelfDirectedTraining/blob/main/AgileSoftwareEngineering/2025-11-09_AgileProjectMgt/README.md)
-- [Business Requirement Definition](https://github.com/retamotome/SelfDirectedTraining/blob/main/AgileSoftwareEngineering/2025-12-08_BusinessReqDef/README.md)
+- [Lesson 01: Agile and Software Engineering 敏捷與軟體工程全覽](https://github.com/retamotome/SelfDirectedTraining/blob/main/AgileSoftwareEngineering/2025-11-09_AgileProjectMgt/README.md)
+- [Lesson 02: Business Requirement Definition 商業需求定義](https://github.com/retamotome/SelfDirectedTraining/blob/main/AgileSoftwareEngineering/2025-12-08_BusinessReqDef/README.md)
 
 Recommended books:
 - [Specification by Example 中文版：團隊如何交付正確的軟體](https://www.tenlong.com.tw/products/9789862019481)
@@ -27,7 +27,7 @@ Recommended books:
 
 ## Procedure
 
-Requirements are created following the approach in [Business Requirement Definition](https://github.com/retamotome/SelfDirectedTraining/blob/main/AgileSoftwareEngineering/2025-12-08_BusinessReqDef/README.md). Each requirement should include tables (see the [requirement template](./Feature-Requirement-Template.txt)) which be presented using the method from [Specification by Example](https://www.tenlong.com.tw/products/9789862019481):
+Requirements are created following the approach in [Lesson 02: Business Requirement Definition 商業需求定義](https://github.com/retamotome/SelfDirectedTraining/blob/main/AgileSoftwareEngineering/2025-12-08_BusinessReqDef/README.md). Each requirement should include tables (see the [requirement template](./Feature-Requirement-Template.txt)) which be presented using the method from [Specification by Example](https://www.tenlong.com.tw/products/9789862019481):
 
 - **Risk and Solution**
 - **Normal Case**
@@ -35,7 +35,7 @@ Requirements are created following the approach in [Business Requirement Definit
 
 These tables are then used to generate **acceptance** test cases in a **pseudocode-like** format, such as [Gherkin](https://cucumber.io/docs/gherkin/). Today, these can be run directly as tests using supported frameworks. This approach predates the term *“Vibe Coding”*.
 
-In the **Identification** phase of [Business Requirement Definition](https://github.com/retamotome/SelfDirectedTraining/blob/main/AgileSoftwareEngineering/2025-12-08_BusinessReqDef/README.md), use **5W1H** (Who, What, When, Where, Why, How) to clarify each requirement table. These are then expressed in pseudocode-like syntax, as shown below, to serve as corresponding **acceptance** test cases for the requirement.
+In the **Identification** phase of [Lesson 02: Business Requirement Definition 商業需求定義](https://github.com/retamotome/SelfDirectedTraining/blob/main/AgileSoftwareEngineering/2025-12-08_BusinessReqDef/README.md), use **5W1H** (Who, What, When, Where, Why, How) to clarify each requirement table. These are then expressed in pseudocode-like syntax, as shown below, to serve as corresponding **acceptance** test cases for the requirement.
 
 ### Pseudocode-Like Syntax Example (Gherkin)
 ```
@@ -62,7 +62,7 @@ These acceptance test cases can be executed:
 * automated with code-then-run AI agents.  
 
 
-> [!note]  
+> [!note]    
 > While Gherkin is used as an example here, you are not restricted to any specific language or syntax. Use whatever format is clear and effective for your team.  
 > Likewise, when generating code for tests, you may use C++, Python, or any language you prefer.
 

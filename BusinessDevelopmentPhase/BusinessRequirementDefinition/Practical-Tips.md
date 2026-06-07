@@ -1,8 +1,8 @@
 # Practical System Design Considerations   
 
-> [!note]  
+> [!note]    
 > ![BY NC ND](../../img/Cc-by-nc-sa.png)  
-> Practical System Design Considerations © 2026 by Jen Yuan Pan is licensed under [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).  
+> Practical System Design Considerations © 2018 by Jen Yuan Pan is licensed under [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).  
 
 ## Overview 
 
@@ -33,13 +33,21 @@ Fortunately, Linux provides several mechanisms to capture system state (e.g., ke
 Always ensure that **at least 30% of system resources** (CPU, memory, disk, etc.) **remain available**, and **implement timely dumps** when sudden failures occur.   
 Note that memory dumps do **not** guarantee data is written to disk. Many enterprise-level high-performance drives use DRAM cache to speed up transfers, so data loss can occur if cached data is lost during a power failure.   
 
+### Memory Dump Strategy
+
+- Perform memory dumps **after processing large datasets in memory**, particularly when the system is under heavy load or showing performance degradation.  
+- Dumps provide a **snapshot of the system state**, helping prevent data loss and enabling detailed post‑mortem analysis.  
+- They are essential for diagnosing **memory leaks, bottlenecks, and hidden issues** that may not be visible through logs alone.  
+- Regularly scheduled or event‑triggered dumps improve **system reliability and troubleshooting efficiency**.  
+- Ensure dumps are securely stored and accessible for analysis, while considering **data sensitivity and compliance requirements**.  
+
 ## Build a Quality-Assurable System 
 
 ### System Mode and State 
 
 Understanding and clearly defining **System Modes** and **System States** is essential for robust requirement analysis. This ensures the system behaves predictably under all circumstances, supports troubleshooting, and meets both operational and safety requirements. 
 
-> [!note] 
+> [!note]   
 > + A well-designed system should define at least three distinct Modes, each with its own set of States. (A system with only a single state is generally considered a poor design in software engineering.) 
 > + Both Modes and States should clearly **specify their respective capabilities and restrictions**. This approach is fundamental to building **quality-assurable** systems. 
 > + Properly defined Modes and States **control what the system is allowed to do**, rather than merely reflecting its current activity. 
@@ -74,7 +82,7 @@ System modes describe the overall operational context or intent of the system. E
         | Diagnostics             | Manual              | Utilities with product       | 
 
 
-> [!note]    
+> [!note]      
 > Diagnostic utilities should be delivered with the product for field troubleshooting.    
 > Debug features are typically disabled in production builds to improve performance and security. 
 
@@ -219,7 +227,7 @@ To reduce data loss and system risks during power failures, implement a layered 
 * Detect abnormal shutdown and resume or roll back safely.  
 
 
-## Data Storage Strategy
+## Data Management Strategy
 
 ### Data Format
 For configuration files, adopt **human-readable formats** such as JSON or YAML to simplify maintenance and reduce the need for complex queries.   
@@ -236,6 +244,40 @@ Always perform a **full format** when initializing external storage (e.g., SD ca
 > **Avoid** using **shared folders or network-shared storage** for critical data:
 > * Data transfer is **not encrypted by default** (e.g., SMB/NFS), unless explicitly configured.  
 > * Exposes risk of **data interception, leakage, or unauthorized access**.  
+
+
+### Ensuring Reliable Data Sync  
+
+- **Closing a file (`close()`) is not enough**: It only flushes user‑space buffers to the OS; data may still remain in the kernel’s page cache.  
+- **Explicit flush required**: Use `fsync(fd)` or `fdatasync(fd)` on Linux/Unix, and `FlushFileBuffers(handle)` on Windows, to force both data and metadata to stable storage.  
+- **Performance trade‑off**: Frequent sync calls can reduce throughput, so durability must be balanced with efficiency.  
+- **Structured persistence techniques**: Write‑ahead logging (WAL), checkpointing, and replication provide stronger guarantees of reliability and recovery compared to relying solely on sync calls.  
+- **Best practice workflow**: `write → fsync/fdatasync → close` ensures data is truly committed to disk and minimizes risk of loss during crashes or power failures.  
+
+
+### Data Transmission  
+
+To ensure **data integrity, availability, and confidentiality** during transfer, it is essential to use secure protocols (e.g., **HTTPS, SFTP, TLS**) combined with strong encryption. These measures protect against tampering, interception, and unauthorized access.  
+
+**Built‑in Resume Capability**  
+Built‑in resume capability means a protocol or system can **natively continue interrupted transfers** from the last completed point without external tools. Examples include:  
+- **FTP** (via the `REST` command)  
+- **SFTP** (client‑side offset resume)  
+- **BitTorrent** (chunked transfer with checksums)  
+- **Cloud storage APIs** (e.g., Amazon S3 multipart uploads, Google Cloud Storage resumable uploads)  
+
+This feature is critical for large files or unstable networks, ensuring efficiency and saving bandwidth.  
+
+**Paging / Chunking**  
+For large data transfers, **paging or chunking** techniques improve reliability and memory management. Files are broken into smaller segments, transferred sequentially, and reassembled at the destination. This approach:  
+- Simplifies error handling and retries (only failed chunks are resent).  
+- Prevents excessive memory usage.  
+- Is widely adopted in **REST APIs** and cloud services for handling big datasets.  
+
+**Limitations**  
+- Not all protocols support resume (e.g., **SCP, WebDAV**).  
+- Resume may fail if the source file changes mid‑transfer or if metadata (timestamps, permissions) is not preserved.  
+- Peer or server availability is required (especially in BitTorrent).  
 
 
 ## Security Consideration 
@@ -270,3 +312,4 @@ All external connections must be secured with encryption.
 * The SBOM should: 
     * List all dependencies, including both direct and transitive 
     * Record each dependency's version, license, source, and hash 
+    

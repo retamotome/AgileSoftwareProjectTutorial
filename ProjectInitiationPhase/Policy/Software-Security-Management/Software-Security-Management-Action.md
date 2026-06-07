@@ -20,18 +20,13 @@
 
 所有開發相關軟體、工具、套件與服務**得**符合以下原則：
 
-* 僅可使用經資訊部門核准之軟體版本（透過 BPM -> 8-F 軟體授權管理表單）
+* 僅可使用經資訊部門核准之軟體版本
 * 套件來源必須為官方發布（官方封閉佈署的 repository，如 Ubuntu）
 * 應具備明確之安全政策與隱私政策文件
 * 優先選用具備國際資安認證之產品（如 ISO 27001、SOC 2）
 * 開發工具之擴充套件（Extension / Plugin）須為官方發布版本
 
-未列於核准清單之軟體、工具、套件與服務，**得**完成審查程序：
-
-* S:\公共區\共用表格\智財法務組\5.軟體使用審查  
-* S:\公共區\共用表格\資訊
-
-並提供：
+未列於核准清單之軟體、工具、套件與服務，**得**完成審查程序，並提供：
 
 * 使用授權條款（License）
 * 服務條款（Terms of Use / Service）
@@ -114,7 +109,7 @@ python -m venv .venv
                 ↓        ↓        ↓
               SCA    Secret Scan   Security Gate
 ```
-SCA: Software Composition Analysis  
+SCA: Software Composition Analysis 軟體組成分析  
 
 ***
 

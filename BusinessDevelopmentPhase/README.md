@@ -1,19 +1,25 @@
 # Business Development Phase
 
-> [!note]  
+> [!note]    
 > ![BY NC ND](../img/Cc-by-nc-sa.png)  
-> Business Development Phase © 2026 by Jen Yuan Pan is licensed under [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).  
+> Business Development Phase © 2016 by Jen Yuan Pan is licensed under [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).  
+
+## Overview 
 
 This phase focuses on defining clear, testable business requirements and preparing a foundation for behavior-driven validation.  
 Teams should establish acceptance criteria early and use Behavior-Driven Development (BDD) practices to keep requirements aligned with business goals.  
 
 > [!important]  
-> Business Development Phase intentionally **excludes** implementation-level **technical** details.
+> + **Business focus only**: The Business Development Phase deliberately excludes technical design or implementation details.  
+> + **Requirements clarity**: Documentation should emphasize business needs, expected outcomes, and acceptance criteria, not technical specifics.  
+> + **Accessible criteria**: Acceptance criteria must be easily translatable into test cases without requiring technical knowledge.  
+> + **Define “what” and “why”**: Teams should describe desired outcomes and business value, avoiding “how” the solution will be implemented.  
+> + **Flexibility preserved**: Keeping requirements non-technical ensures alignment with stakeholders and allows freedom in exploring technical solutions later.  
 
 ## Prerequisites
 For more background, see:
-- [Agile and Software Engineering](https://github.com/retamotome/SelfDirectedTraining/blob/main/AgileSoftwareEngineering/2025-11-09_AgileProjectMgt/README.md)
-- [Business Requirement Definition](https://github.com/retamotome/SelfDirectedTraining/blob/main/AgileSoftwareEngineering/2025-12-08_BusinessReqDef/README.md)
+- [Lesson 01: Agile and Software Engineering 敏捷與軟體工程全覽](https://github.com/retamotome/SelfDirectedTraining/blob/main/AgileSoftwareEngineering/2025-11-09_AgileProjectMgt/README.md)
+- [Lesson 02: Business Requirement Definition 商業需求定義](https://github.com/retamotome/SelfDirectedTraining/blob/main/AgileSoftwareEngineering/2025-12-08_BusinessReqDef/README.md)
 
 
 ## Guidance

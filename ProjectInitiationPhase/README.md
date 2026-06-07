@@ -1,6 +1,6 @@
 # Project Initiation Phase
 
-> [!note]
+> [!note]    
 > ![BY NC ND](../img/Cc-by-nc-sa.png)   
 > Project Initiation Phase © 2023 by Jen Yuan Pan is licensed under [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).
 
@@ -26,7 +26,7 @@ The initiation phase establishes the foundation for a successful Agile software 
 This video introduces:
 
 - **Authority Matrix Framework** — tailored to team maturity levels.  
-- **ARCI Models** — clarifying roles and responsibilities across different team maturity stages.  
+- **ARCI(RACI) Models** — clarifying roles and responsibilities across different team maturity stages.  
 - **Cynefin Framework** — five situational domains to help managers understand complexity, assign tasks effectively, and match team capabilities to context.  
 
 ### Agile Team Maturity
@@ -34,8 +34,8 @@ Only teams with a **high level of maturity** can truly operate as Agile teams. M
 
 For detailed expectations regarding team conduct and professional standards, please refer to the [Agile Code of Conduct](./Policy/Agile-Code-of-Conduct.md).
 
-### ARCI Model of Agile Team  
-* **ARCI Models** — Used to clarify roles and responsibilities, especially as teams evolve from low to high maturity. In early-stage or hierarchical teams, ARCI can help define ownership explicitly; however, in mature Agile teams, responsibility becomes more collective and less role-centric.
+### ARCI(RACI) Model for Agile Team  
+* **ARCI(RACI) Models** — Used to clarify roles and responsibilities, especially as teams evolve from low to high maturity. In early-stage or hierarchical teams, ARCI can help define ownership explicitly; however, in mature Agile teams, responsibility becomes more collective and less role-centric.
 
   **Important note:** In Agile contexts, there is typically **no fixed “A” (Accountable) role assigned to a single individual**. Instead:
 
