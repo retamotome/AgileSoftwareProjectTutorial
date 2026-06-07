@@ -266,17 +266,17 @@ Built‑in resume capability means a protocol or system can **natively continue 
 - **BitTorrent** (chunked transfer with checksums)  
 - **Cloud storage APIs** (e.g., Amazon S3 multipart uploads, Google Cloud Storage resumable uploads)  
 
-This feature is critical for large files or unstable networks, ensuring efficiency and saving bandwidth.  
+This feature is critical for large data or unstable networks, ensuring efficiency and saving bandwidth.  
 
 **Paging / Chunking**  
-For large data transfers, **paging or chunking** techniques improve reliability and memory management. Files are broken into smaller segments, transferred sequentially, and reassembled at the destination. This approach:  
+For large data transfers, **paging or chunking** techniques improve reliability and memory management. Data is broken into smaller segments, transferred sequentially, and reassembled at the destination. This approach:  
 - Simplifies error handling and retries (only failed chunks are resent).  
 - Prevents excessive memory usage.  
 - Is widely adopted in **REST APIs** and cloud services for handling big datasets.  
 
 **Limitations**  
 - Not all protocols support resume (e.g., **SCP, WebDAV**).  
-- Resume may fail if the source file changes mid‑transfer or if metadata (timestamps, permissions) is not preserved.  
+- Resume may fail if the source data changes mid‑transfer or if metadata (timestamps, permissions) is not preserved.  
 - Peer or server availability is required (especially in BitTorrent).  
 
 
