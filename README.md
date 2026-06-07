@@ -13,7 +13,7 @@ Tutorial videos are available in the [Self-Directed Training](https://github.com
 
 ## Tutorial overview
 
-This tutorial describes software engineering activities across development, testing, and maintenance. For an introductory presentation, see [Lesson 01: Agile and Software Engineering](https://github.com/retamotome/SelfDirectedTraining/blob/main/AgileSoftwareEngineering/2025-11-09_AgileProjectMgt/README.md).
+This tutorial describes software engineering activities across development, testing, and maintenance. For an introductory presentation, see [Lesson 01: Agile and Software Engineering 敏捷與軟體工程全覽](https://github.com/retamotome/SelfDirectedTraining/blob/main/AgileSoftwareEngineering/2025-11-09_AgileProjectMgt/README.md)
 
 ## Key project phases
 
@@ -25,11 +25,11 @@ This tutorial describes software engineering activities across development, test
 
 ### Business Development
 
-- Market research, business case development, and stakeholder engagement.
-- [Business requirements definition](./BusinessDevelopmentPhase/BusinessRequirementDefinition/Practical-Tips.md) to capture and validate stakeholder needs.
-  - Elicit, document, and validate stakeholder requirements.  
-- This phase intentionally **excludes** implementation-level **technical** details.  
-- refer to the [Business Development Phase](./BusinessDevelopmentPhase/README.md) for details.
+- Market research, business case development, and stakeholder engagement.  
+- Building on [Lesson 02: Business Requirement Definition 商業需求定義](https://github.com/retamotome/SelfDirectedTraining/blob/main/AgileSoftwareEngineering/2025-12-08_BusinessReqDef/README.md) to **capture and validate stakeholder needs**.  
+	- Systematically elicit, document, and confirm stakeholder requirements to ensure alignment with business objectives and stakeholder expectations.  	
+- This phase intentionally **excludes** implementation-level **technical** details.      
+- Please refer to the [Business Development Phase](./BusinessDevelopmentPhase/README.md) for detailed guidance and context.  
 
 ### Software Development
 
