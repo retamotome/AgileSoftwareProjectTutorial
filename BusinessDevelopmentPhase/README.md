@@ -36,8 +36,8 @@ For more background, see:
 
 ## Guidance ｜ 指引
 
-+ [Practical System Design Considerations 實務系統設計考量](./System-Design-Considerations/README.md).    
-+ [Writing Requirements Effectively 高效撰寫需求的方法](./BusinessRequirementDefinition/Writing-Requirements-Effectively.md).  
++ [Practical System Design Considerations 系統設計實務考量](./System-Design-Considerations/README.md).    
++ [Writing Requirements Effectively 撰寫需求的高效方法](./BusinessRequirementDefinition/Writing-Requirements-Effectively.md).  
 
 ## Key Expected Deliverables ｜ 主要交付成果
 
