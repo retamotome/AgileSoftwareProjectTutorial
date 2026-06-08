@@ -27,7 +27,7 @@ Recommended books:
 
 ## Procedure
 
-Requirements are created following the approach in [Lesson 02: Business Requirement Definition 商業需求定義](https://github.com/retamotome/SelfDirectedTraining/blob/main/AgileSoftwareEngineering/2025-12-08_BusinessReqDef/README.md). Each requirement should include tables (see the [requirement template](./Feature-Requirement-Template.txt)) which be presented using the method from [Specification by Example](https://www.tenlong.com.tw/products/9789862019481):
+Requirements are created following the approach in [Lesson 02: Business Requirement Definition 商業需求定義](https://github.com/retamotome/SelfDirectedTraining/blob/main/AgileSoftwareEngineering/2025-12-08_BusinessReqDef/README.md). Each requirement should include tables (see the [requirement template](Feature-Requirement-Template.md)) which be presented using the method from [Specification by Example](https://www.tenlong.com.tw/products/9789862019481):
 
 - **Risk and Solution**
 - **Normal Case**
