@@ -39,10 +39,14 @@ Recommended books:
 [領域驅動設計：軟體核心複雜度的解決方法](https://www.books.com.tw/products/0010821330)
 
 
-## Template ｜ 模板
-- [Business Requirement Template ｜ 商業需求模板](./template/Business-Requirement.Template.md)  
-- [Feature Requirement Template ｜ 功能需求模板](./template/Feature-Requirement-Template.md)   
-
+## Example ｜ 範例
+- [Business Requirement Example ｜ 商業需求範例](./Example/Business-Requirement-Example.md)  
+  BR-001: Secure User Login ｜ BR-001：強化使用者登入安全  
+- [Feature Requirement Example ｜ 功能需求範例](./Example/Feature-Requirement-Example.md)   
+  FR-001: User Authentication ｜ FR-001: 使用者驗證  
+    - This one of the features that support BR-001.  
+      這是根據 BR-001 進行細分的其中一項功能需求。 
+    
 
 ## Procedure ｜ 流程
 
