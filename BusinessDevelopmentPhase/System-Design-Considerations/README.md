@@ -13,8 +13,8 @@ This section provides a concise overview of key reliability strategies and gener
 Companion video: [Lesson 02: Business Requirement Definition 商業需求定義](https://github.com/retamotome/SelfDirectedTraining/blob/main/AgileSoftwareEngineering/2025-12-08_BusinessReqDef/README.md).    
 參考影片： [Lesson 02: Business Requirement Definition 商業需求定義](https://github.com/retamotome/SelfDirectedTraining/blob/main/AgileSoftwareEngineering/2025-12-08_BusinessReqDef/README.md)。  
 
-For guidance on writing requirements, see [Writing Requirements Effectively](./Writing-Requirements-Effectively.md).   
-關於撰寫需求的實作指引，請參閱 [撰寫需求的高效方法](./Writing-Requirements-Effectively.md)。 
+For guidance on writing requirements, see [Writing Requirements Effectively](../BusinessRequirementDefinition/Writing-Requirements-Effectively.md).   
+關於撰寫需求的實作指引，請參閱 [撰寫需求的高效方法](../BusinessRequirementDefinition/Writing-Requirements-Effectively.md)。 
 
 ## System Architecture | 系統架構  
 
@@ -187,7 +187,7 @@ To prevent heavy processes from overwhelming shared CPU resources and starving o
 * Avoid unrestricted process scheduling, which may lead to CPU saturation, increased latency, or system stalls.  
   避免不受限制的程序排程，因為這可能導致 CPU 飽和、延遲增加或系統停滯。  
 * Consider NUMA awareness (if applicable) to further optimize performance on multi-socket systems.  
-  在多插槽系統中，若適用，應考慮 NUMA 感知以進一步優化效能。  
+  在多插槽系統中，若適用，應考慮 NUMA 感知以進一步最佳化效能。  
 
 Proper CPU affinity planning helps achieve **deterministic execution**, improved system stability, and better overall resource utilization.  
 良好的 CPU 親和性規劃有助於達成 **確定性執行**、提升系統穩定性並改善整體資源利用率。  
@@ -225,3 +225,11 @@ Please refer to the [Data Processing Strategy](./Data-Processing-Strategy.md) fo
 ## Security Consideration | 安全性考量   
 Please refer to the [Security Consideration](./Security-Consideration.md) for details.    
 詳細內容請參考 [安全性考量](./Security-Consideration.md)。
+
+
+---
+
+> [!note]  
+> **AI Translation Notice | AI 翻譯說明**  
+> 本文之中文內容係由人工智慧（AI）翻譯產出，並採用正體中文及台灣常用語彙進行表述，以確保內容符合在地語言之使用與閱讀習慣。  
+> The Chinese content of this document has been generated through AI-based translation and is presented using Traditional Chinese characters and terminology commonly used in Taiwan to ensure clarity, localization, and readability.  

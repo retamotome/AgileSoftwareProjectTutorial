@@ -1,7 +1,7 @@
-# Agile Software Project Tutorial｜敏捷軟體專案教學指南
+# Agile Software Project Tutorial｜敏捷軟體專案指南
 
 A concise, phase-based guide for planning and executing Agile software projects. This repository documents each project phase, recommended practices, and links to supporting videos and artifacts.  
-本指南提供以「階段」為主軸的精簡教學，說明如何規劃與執行敏捷軟體專案。本儲存庫涵蓋各專案階段、建議實務，以及相關教學影片與產出文件連結。
+本指南提供以「階段」為主軸的精簡指南，說明如何規劃與執行敏捷軟體專案。本儲存庫涵蓋各專案階段、建議實務，以及相關教學影片與產出文件連結。
 
 ## Learning Objectives｜學習目標
 
@@ -17,10 +17,10 @@ A concise, phase-based guide for planning and executing Agile software projects.
 Tutorial videos are available in the [Self-Directed Training](https://github.com/retamotome/SelfDirectedTraining).  
 教學影片可參考 [Self-Directed Training](https://github.com/retamotome/SelfDirectedTraining) 儲存庫。  
 
-## Tutorial Overview｜教學總覽
+## Tutorial Overview｜指南總覽
 
 This tutorial describes software engineering activities across development, testing, and maintenance.  
-本教學涵蓋軟體工程在開發、測試與維護各階段的實務活動。
+本指南涵蓋軟體工程在開發、測試與維護各階段的實務活動。
 
 For an introductory presentation, see:  
 入門介紹請參考：  
@@ -68,7 +68,7 @@ For an introductory presentation, see:
 ### Maintenance｜維護階段
 
 * Post-deployment bug fixes, performance improvements, and feature enhancements.  
-  上線後之錯誤修復、效能優化與功能擴充。
+  上線後之錯誤修復、效能最佳化與功能擴充。
 
 
 
@@ -94,4 +94,9 @@ For an introductory presentation, see:
 This work is licensed under [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).  
 本作品採用 [姓名標示－非商業性－相同方式分享 4.0 國際](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en) 授權條款。
 
+---
 
+> [!note]  
+> **AI Translation Notice | AI 翻譯說明**  
+> 本文之中文內容係由人工智慧（AI）翻譯產出，並採用正體中文及台灣常用語彙進行表述，以確保內容符合在地語言之使用與閱讀習慣。  
+> The Chinese content of this document has been generated through AI-based translation and is presented using Traditional Chinese characters and terminology commonly used in Taiwan to ensure clarity, localization, and readability.  

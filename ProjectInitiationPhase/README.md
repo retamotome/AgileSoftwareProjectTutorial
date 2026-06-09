@@ -5,7 +5,7 @@
 > Project Initiation Phase © 2023 by Jen Yuan Pan is licensed under Attribution-NonCommercial-ShareAlike 4.0 International.  
 > 專案啟動階段 © 2023 Jen Yuan Pan，採用  [姓名標示－非商業性－相同方式分享 4.0 國際](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en) 授權。  
 
-***
+
 
 ## Overview｜概述
 
@@ -102,3 +102,10 @@ Therefore, ARCI should be applied **adaptively**:
     + Chinese version 中文版: [Scrum 敏捷產品管理：打造客戶喜愛的產品](https://www.tenlong.com.tw/products/9789864345601)  
 
 + 2025-08-12 [後敏捷時代的組織再造：為何淘汰Scrum Master是第一步？AI與系統化賦能的實戰指南](https://www.find.org.tw/indus_trend/browse/09db48ac70d0e66e03f2d9c002c014cc)  
+
+---
+
+> [!note]  
+> **AI Translation Notice | AI 翻譯說明**  
+> 本文之中文內容係由人工智慧（AI）翻譯產出，並採用正體中文及台灣常用語彙進行表述，以確保內容符合在地語言之使用與閱讀習慣。  
+> The Chinese content of this document has been generated through AI-based translation and is presented using Traditional Chinese characters and terminology commonly used in Taiwan to ensure clarity, localization, and readability.  

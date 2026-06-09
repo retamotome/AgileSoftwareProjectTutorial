@@ -36,8 +36,8 @@ For more background, see:
 
 ## Guidance ｜ 指引
 
-+ [Practical System Design Considerations 系統設計實務考量](./System-Design-Considerations/README.md).    
 + [Writing Requirements Effectively 撰寫需求的高效方法](./BusinessRequirementDefinition/Writing-Requirements-Effectively.md).  
++ [Practical System Design Considerations 系統設計實務考量](./System-Design-Considerations/README.md).    
 
 ## Key Expected Deliverables ｜ 主要交付成果
 
@@ -89,4 +89,11 @@ For more background, see:
 
 ## Milestone ｜ 里程碑
 
-![Business Milestone](./img/BusinessDevMilestone.drawio.svg)
+![Business Milestone](./img/BusinessDevMilestone.drawio.svg)  
+
+---
+
+> [!note]  
+> **AI Translation Notice | AI 翻譯說明**  
+> 本文之中文內容係由人工智慧（AI）翻譯產出，並採用正體中文及台灣常用語彙進行表述，以確保內容符合在地語言之使用與閱讀習慣。  
+> The Chinese content of this document has been generated through AI-based translation and is presented using Traditional Chinese characters and terminology commonly used in Taiwan to ensure clarity, localization, and readability.  

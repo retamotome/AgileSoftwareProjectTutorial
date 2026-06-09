@@ -136,4 +136,11 @@ Always bear in mind:
 - Inaccurate statements can lead to confusion and waste valuable time for everyone involved.  
   不精確的表述會造成混淆，並浪費所有相關人員的寶貴時間。  
 - Verify the task objectives thoroughly; avoid assuming you know everything. Overconfidence can undermine your credibility, so it is crucial to refrain from making false claims.  
-  請完整確認任務目標，避免自以為全都清楚。過度自信會削弱你的可信度，因此務必避免不實陳述。
+  請完整確認任務目標，避免自以為全都清楚。過度自信會削弱你的可信度，因此務必避免不實陳述。  
+
+---
+
+> [!note]  
+> **AI Translation Notice | AI 翻譯說明**  
+> 本文之中文內容係由人工智慧（AI）翻譯產出，並採用正體中文及台灣常用語彙進行表述，以確保內容符合在地語言之使用與閱讀習慣。  
+> The Chinese content of this document has been generated through AI-based translation and is presented using Traditional Chinese characters and terminology commonly used in Taiwan to ensure clarity, localization, and readability.  

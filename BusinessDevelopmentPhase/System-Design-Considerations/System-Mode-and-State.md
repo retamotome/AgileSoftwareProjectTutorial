@@ -213,8 +213,9 @@ Furthermore:
 * Diagnostic coverage and monitoring mechanisms shall confirm that all required State transitions have been successfully executed.  
 診斷覆蓋範圍和監控機制應確認所有必要的狀態轉換均已成功執行。  
 
-### Compact Rule (for architecture guideline) ｜ 簡化規則（架構準則）
+---
 
-> Any system Mode transition—especially fault-triggered transitions to Safe Mode—shall enforce a deterministic and validated transition of all subsystems, submodules, and services into their corresponding safe or risk-reduced States (e.g., Degraded, Fallback, Emergency), ensuring compliance with defined Safety Functions, achievement of a safe state, and adherence to the required SIL/PL.  
-> 任何系統模式轉換（尤其是故障觸發的安全模式的轉換）都應強制所有子系統、子模組和服務確定性地、經過驗證地轉換到其相應的安全或風險降低狀態（例如，降級、回退、緊急狀態），從而確保符合已定義的安全功能、達到安全狀態並滿足所需的 SIL/PL。  
-
+> [!note]  
+> **AI Translation Notice | AI 翻譯說明**  
+> 本文之中文內容係由人工智慧（AI）翻譯產出，並採用正體中文及台灣常用語彙進行表述，以確保內容符合在地語言之使用與閱讀習慣。  
+> The Chinese content of this document has been generated through AI-based translation and is presented using Traditional Chinese characters and terminology commonly used in Taiwan to ensure clarity, localization, and readability.  
