@@ -15,7 +15,7 @@ At this stage, focus on defining requirements at the **business level**—avoid 
 在此階段，應專注於**商業層級的需求定義**，避免涉及技術細節。  
 
 All **Feature Requirements** should include **Specification by Example** scenario tables. These help create clear, testable acceptance criteria align with BDD principle.  
-所有**功能需求（Feature Requirements）**應包含 **Specification by Example（範例式規格）** 的情境表格，以建立清楚且可測試的驗收標準，並符合 BDD 原則。  
+所有 **功能需求（Feature Requirements）** 應包含 **Specification by Example（範例式規格）** 的情境表格，以建立清楚且可測試的驗收標準，並符合 BDD 原則。  
 
 > [!note]     
 > BDD (Behavior-Driven Development) is mainly used for acceptance tests.  
