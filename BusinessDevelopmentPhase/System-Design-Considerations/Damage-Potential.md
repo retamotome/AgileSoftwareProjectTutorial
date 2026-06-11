@@ -136,6 +136,7 @@ Noticeable degradation of functionality but system remains partially usable.<br>
   速度上限被錯誤套用（例如：被限制在 50%）；產能降低但仍處於安全狀態
 * **AMR localization jitter** leading to docking retries and productivity loss\
   AMR 定位抖動，導致多次對位重試與生產力下降
+
 </td>
 </tr>
 <tr style="vertical-align: top;">
@@ -157,8 +158,10 @@ Minor inconvenience with little to no impact on core functionality.<br>對核心
   輕微的效能延遲
 * Cosmetic issues like incorrect icons\
   外觀問題，例如圖示不正確
+
 </td>
 <td>
+
 * **Status indicator mismatch** (e.g., light tower shows amber instead of green)\
   狀態指示燈號不一致（例如：訊號塔應顯示綠燈卻變成黃燈）
 * **Non-critical alarm text typo** or poor localization on HMI\
@@ -171,6 +174,7 @@ Minor inconvenience with little to no impact on core functionality.<br>對核心
   示教器上的工具提示／說明面板內容不正確，但不影響機器人動作
 * **AMR map rendering artifact**; navigation unaffected\
   AMR 地圖顯示出現瑕疵或殘影，但導航功能不受影響
+
 </td>
 </tr>
 </table>
