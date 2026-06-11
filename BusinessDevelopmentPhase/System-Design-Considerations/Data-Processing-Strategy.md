@@ -9,7 +9,7 @@ When handling data that requires frequent searching, filtering, or analytical pr
 對於需要頻繁搜尋、篩選或進行分析處理的資料，應使用 **資料庫系統**，以確保效能、可擴展性與處理效率。  
 
 
-## Using External Storage ｜ 外部儲存使用
+## Using External Storage ｜ 使用外部儲存體
 
 Always perform a **full format** when initializing external storage (e.g., SD cards, HDDs, removable media).  
 在初始化外部儲存（如 SD 卡、硬碟、可移除媒體）時，務必進行 **完整格式化（full format）**。
