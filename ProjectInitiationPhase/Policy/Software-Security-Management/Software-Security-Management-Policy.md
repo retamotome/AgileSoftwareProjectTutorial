@@ -251,3 +251,18 @@ This policy primarily addresses the following information security risks:
 | 核准單位 / Approving  | 管理階層 / Management |
 | 審查週期 / Review Cycle | 每年至少一次或重大變更時 / At least annually or upon major changes |
 
+---
+
+## License｜授權條款
+
+![BY NC ND](../../../img/Cc-by-nc-sa.png)     
+Software Security Management Policy © 2026 by Jen Yuan Pan is licensed under Attribution-NonCommercial-ShareAlike 4.0 International.  
+軟體安全管理政策 © 2026 潘貞元（Reta Pan），採用  [姓名標示－非商業性－相同方式分享 4.0 國際](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en) 授權。  
+
+---
+
+> [!note]  
+> **AI Translation Notice | AI 翻譯說明**  
+> The Chinese content of this document has been generated through AI-based translation and is presented using Traditional Chinese characters and terminology commonly used in Taiwan to ensure clarity, localization, and readability.  
+> 本文之中文內容係由人工智慧（AI）翻譯產出，並採用正體中文及台灣常用語彙進行表述，以確保內容符合在地語言之使用與閱讀習慣。  
+

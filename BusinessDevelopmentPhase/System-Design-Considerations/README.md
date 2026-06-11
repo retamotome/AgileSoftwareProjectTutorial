@@ -1,10 +1,5 @@
 # Practical System Design Considerations | 系統設計實務考量  
 
-> [!note]    
-> ![BY NC ND](../../img/Cc-by-nc-sa.png)  
-> Practical System Design Considerations © 2018 by Jen Yuan Pan is licensed under [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).  
-> 系統設計實務考量 © 2018 作者 Jen Yuan Pan，依 [姓名-非商業性-相同方式分享 4.0 國際](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en) 授權。  
-
 ## Overview | 概要  
 
 This section provides a concise overview of key reliability strategies and general considerations essential during the Requirement Analysis phase of software engineering and project management, along with practical tips based on my real-world experience.   
@@ -226,10 +221,17 @@ Please refer to the [Data Processing Strategy](./Data-Processing-Strategy.md) fo
 Please refer to the [Security Consideration](./Security-Consideration.md) for details.    
 詳細內容請參考 [安全性考量](./Security-Consideration.md)。
 
+---
+
+## License｜授權條款
+
+![BY NC ND](../../img/Cc-by-nc-sa.png)  
+Practical System Design Considerations © 2018 by Jen Yuan Pan is licensed under [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).  
+系統設計實務考量 © 2018 作者 潘貞元（Reta Pan），依 [姓名-非商業性-相同方式分享 4.0 國際](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en) 授權。  
 
 ---
 
 > [!note]  
 > **AI Translation Notice | AI 翻譯說明**  
-> 本文之中文內容係由人工智慧（AI）翻譯產出，並採用正體中文及台灣常用語彙進行表述，以確保內容符合在地語言之使用與閱讀習慣。  
 > The Chinese content of this document has been generated through AI-based translation and is presented using Traditional Chinese characters and terminology commonly used in Taiwan to ensure clarity, localization, and readability.  
+> 本文之中文內容係由人工智慧（AI）翻譯產出，並採用正體中文及台灣常用語彙進行表述，以確保內容符合在地語言之使用與閱讀習慣。  

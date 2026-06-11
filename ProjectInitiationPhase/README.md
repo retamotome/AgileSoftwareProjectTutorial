@@ -1,12 +1,5 @@
 # Project Initiation Phase｜專案啟動階段
 
-> [!note]    
-> ![BY NC ND](../img/Cc-by-nc-sa.png)     
-> Project Initiation Phase © 2023 by Jen Yuan Pan is licensed under Attribution-NonCommercial-ShareAlike 4.0 International.  
-> 專案啟動階段 © 2023 Jen Yuan Pan，採用  [姓名標示－非商業性－相同方式分享 4.0 國際](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en) 授權。  
-
-
-
 ## Overview｜概述
 
 The initiation phase establishes the foundation for a successful Agile software project. Key activities include defining the project vision, assembling the team, and setting up initial plans and practices.  
@@ -23,6 +16,20 @@ The initiation phase establishes the foundation for a successful Agile software 
 * Define a clear project vision and measurable objectives to align stakeholders and the team on expected outcomes and success criteria.  
   定義清晰的專案願景與可衡量的目標，以確保利害關係人與團隊對預期成果與成功標準達成共識。
 
+<details>
+<summary>News and Reference｜參考資訊</summary>
+
++ Here is an informative **manga** about project management: [マンガでわかるプロジェクトマネジメント](https://www.amazon.co.jp/%E3%83%9E%E3%83%B3%E3%82%AC%E3%81%A7%E3%82%8F%E3%81%8B%E3%82%8B%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88-%E5%BA%83%E5%85%BC%E4%BF%AE-ebook/dp/B00LAZPL6C). Although this edition is based on an older PMI PMBOK Guide **without** Agile concepts, its Project Management Knowledge Areas remain valuable references.  
+這是一部關於專案管理的實用**漫畫**：[マンガでわかるプロジェクトマネジメント](https://www.amazon.co.jp/%E3%83%9E%E3%83%B3%E3%82%AC%E3%81%A7%E3%82%8F%E3%81%8B%E3%82%8B%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88-%E5%BA%83%E5%85%BC%E4%BF%AE-ebook/dp/B00LAZPL6C). 雖然此版本基於較舊的PMI PMBOK指南，**未**包含敏捷概念，但其專案管理知識領域仍是寶貴的參考資料。   
+    + Chinese version 中文版: [世界第一簡單專案管理](https://www.books.com.tw/products/0010620993)   
+
++ [Agile Product Management with Scrum: Creating Products that Customers Love](https://www.amazon.com/Agile-Product-Management-Scrum-Addison-Wesley/dp/0321605780)  
+    + Chinese version 中文版: [Scrum 敏捷產品管理：打造客戶喜愛的產品](https://www.tenlong.com.tw/products/9789864345601)  
+
++ 2026-06-10 [前台積電主管親選！讀完這 6 本書，你也能帶出高績效團隊](https://www.managertoday.com.tw/columns/view/72320)  
++ 2026-05-29 [「我們確實落後！」皮蔡的誠實告白：Google 在 AI 賽道上做了哪些取捨？](https://www.managertoday.com.tw/articles/view/72229)  
+
+</details>
 
 
 ## Environment Setup｜環境建置
@@ -91,21 +98,25 @@ Therefore, ARCI should be applied **adaptively**:
 * **High maturity Agile teams:** Use ARCI lightly or as a discussion tool, ensuring it does not undermine team autonomy or shared accountability.  
   **高成熟度敏捷團隊：** 輕量使用 ARCI 或作為討論工具，避免影響團隊自主性與共同責任。
 
-
-
-## News and Reference｜參考資訊
-+ Here is an informative **manga** about project management: [マンガでわかるプロジェクトマネジメント](https://www.amazon.co.jp/%E3%83%9E%E3%83%B3%E3%82%AC%E3%81%A7%E3%82%8F%E3%81%8B%E3%82%8B%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88-%E5%BA%83%E5%85%BC%E4%BF%AE-ebook/dp/B00LAZPL6C). Although this edition is based on an older PMI PMBOK Guide **without** Agile concepts, its Project Management Knowledge Areas remain valuable references.  
-這是一部關於專案管理的實用**漫畫**：[マンガでわかるプロジェクトマネジメント](https://www.amazon.co.jp/%E3%83%9E%E3%83%B3%E3%82%AC%E3%81%A7%E3%82%8F%E3%81%8B%E3%82%8B%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88-%E5%BA%83%E5%85%BC%E4%BF%AE-ebook/dp/B00LAZPL6C). 雖然此版本基於較舊的PMI PMBOK指南，**未**包含敏捷概念，但其專案管理知識領域仍是寶貴的參考資料。   
-    + Chinese version 中文版: [世界第一簡單專案管理](https://www.books.com.tw/products/0010620993)   
-
-+ [Agile Product Management with Scrum: Creating Products that Customers Love](https://www.amazon.com/Agile-Product-Management-Scrum-Addison-Wesley/dp/0321605780)  
-    + Chinese version 中文版: [Scrum 敏捷產品管理：打造客戶喜愛的產品](https://www.tenlong.com.tw/products/9789864345601)  
+<details>
+<summary>News and Reference｜參考資訊</summary>
 
 + 2025-08-12 [後敏捷時代的組織再造：為何淘汰Scrum Master是第一步？AI與系統化賦能的實戰指南](https://www.find.org.tw/indus_trend/browse/09db48ac70d0e66e03f2d9c002c014cc)  
+
+</details>
+
+---
+
+## License｜授權條款
+
+![BY NC ND](../img/Cc-by-nc-sa.png)     
+Project Initiation Phase © 2023 by Jen Yuan Pan is licensed under Attribution-NonCommercial-ShareAlike 4.0 International.  
+專案啟動階段 © 2023 潘貞元（Reta Pan），採用  [姓名標示－非商業性－相同方式分享 4.0 國際](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en) 授權。  
 
 ---
 
 > [!note]  
 > **AI Translation Notice | AI 翻譯說明**  
-> 本文之中文內容係由人工智慧（AI）翻譯產出，並採用正體中文及台灣常用語彙進行表述，以確保內容符合在地語言之使用與閱讀習慣。  
 > The Chinese content of this document has been generated through AI-based translation and is presented using Traditional Chinese characters and terminology commonly used in Taiwan to ensure clarity, localization, and readability.  
+> 本文之中文內容係由人工智慧（AI）翻譯產出，並採用正體中文及台灣常用語彙進行表述，以確保內容符合在地語言之使用與閱讀習慣。  
+

@@ -1,10 +1,5 @@
 # GitLab Container Registry Quick Setup
 
-> [!note]    
-> ![BY NC ND](../../img/Cc-by-nc-sa.png)  
-> GitLab Container Registry Quick Setup © 2026 by Jen Yuan Pan is licensed under [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).  
-
-
 This guide helps you enable the GitLab Container Registry with a self-signed certificate and connect Docker clients. It is written for clarity and quick reference.
 
 ## About GitLab Container Registry
@@ -117,3 +112,12 @@ docker login <your-container-domain.example.com>
 - [Configure Container Registry under its own domain](https://docs.gitlab.com/administration/packages/container_registry/#configure-container-registry-under-its-own-domain)
 - [Configure Self-Signed Certificates](https://docs.gitlab.com/administration/packages/container_registry/#configure-self-signed-certificates)
 - [Create Your Own SSL Certificate Authority for Local HTTPS Development](https://deliciousbrains.com/ssl-certificate-authority-for-local-https-development/)
+
+
+---
+
+## License
+
+![BY NC ND](../../img/Cc-by-nc-sa.png)  
+GitLab Container Registry Quick Setup © 2026 by Jen Yuan Pan is licensed under [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).  
+

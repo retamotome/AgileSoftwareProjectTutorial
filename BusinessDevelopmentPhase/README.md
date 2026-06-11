@@ -1,10 +1,5 @@
 # Business Development Phase ｜ 商業開發階段
 
-> [!note]    
-> ![BY NC ND](../img/Cc-by-nc-sa.png)  
-> Business Development Phase © 2016 by Jen Yuan Pan is licensed under [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).  
-> 商業開發階段 © 2016 Jen Yuan Pan，採用  [姓名標示－非商業性－相同方式分享 4.0 國際](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en) 授權。  
-
 ## Overview ｜ 概述
 
 This phase focuses on defining clear, testable business requirements and preparing a foundation for behavior-driven validation.  
@@ -38,6 +33,13 @@ For more background, see:
 
 + [Writing Requirements Effectively 撰寫需求的高效方法](./BusinessRequirementDefinition/Writing-Requirements-Effectively.md).  
 + [Practical System Design Considerations 系統設計實務考量](./System-Design-Considerations/README.md).    
+
+<details>
+<summary>News and Reference｜參考資訊</summary>
+
++ 2026-06-09 [被黃仁勳酸「自以為上帝」！OpenAI 叛將阿莫迪，如何成為改寫 AI 規則的「超級領跑者」？](https://www.managertoday.com.tw/articles/view/72245)   
+
+</details>
 
 ## Key Expected Deliverables ｜ 主要交付成果
 
@@ -93,7 +95,15 @@ For more background, see:
 
 ---
 
+## License｜授權條款
+
+![BY NC ND](../img/Cc-by-nc-sa.png)  
+Business Development Phase © 2016 by Jen Yuan Pan is licensed under [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en).  
+商業開發階段 © 2016 潘貞元（Reta Pan），採用  [姓名標示－非商業性－相同方式分享 4.0 國際](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en) 授權。  
+
+---
+
 > [!note]  
 > **AI Translation Notice | AI 翻譯說明**  
-> 本文之中文內容係由人工智慧（AI）翻譯產出，並採用正體中文及台灣常用語彙進行表述，以確保內容符合在地語言之使用與閱讀習慣。  
 > The Chinese content of this document has been generated through AI-based translation and is presented using Traditional Chinese characters and terminology commonly used in Taiwan to ensure clarity, localization, and readability.  
+> 本文之中文內容係由人工智慧（AI）翻譯產出，並採用正體中文及台灣常用語彙進行表述，以確保內容符合在地語言之使用與閱讀習慣。  
