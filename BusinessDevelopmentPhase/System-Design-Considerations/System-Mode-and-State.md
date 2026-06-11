@@ -84,8 +84,8 @@ Common modes include:
     支援資料移轉、升級腳本與可控停機
     * Sometimes called Service Mode or Admin Mode.  
     又稱服務模式或管理模式  
-    * Please refer to [Removable Devices](Security-Consideration.md#removable-devices) section if needed.  
-    如需參考，請見 [Removable Devices](Security-Consideration.md#removable-devices)
+    * Please refer to [Removable Devices](Security-Consideration.md#removable-devices--可移除裝置) section if needed.  
+    如需參考，請見 [可移除裝置](Security-Consideration.md#removable-devices--可移除裝置)
 
 - **Simulation Mode ｜ 模擬模式**
     * Allows the system to run without real hardware (e.g., for testing or training).  

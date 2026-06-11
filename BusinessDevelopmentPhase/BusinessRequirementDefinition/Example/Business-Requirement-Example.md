@@ -81,8 +81,8 @@ Users frequently encounter login failures due to unclear error messages and inco
 | Security compliance (安全合規)   | 100% compliant (100% 符合) |
 
 ### General Considerations ｜ 通用考量
-> Please refer to [General Considerations. 通用考量項目](https://github.com/retamotome/SelfDirectedTraining/blob/main/AgileSoftwareEngineering/2025-12-08_BusinessReqDef/material/GeneralConsiderations.md) for details.  
-> 詳細內容請參考[General Considerations. 通用考量項目](https://github.com/retamotome/SelfDirectedTraining/blob/main/AgileSoftwareEngineering/2025-12-08_BusinessReqDef/material/GeneralConsiderations.md)  
+> Please refer to [General Considerations](https://github.com/retamotome/SelfDirectedTraining/blob/main/AgileSoftwareEngineering/2025-12-08_BusinessReqDef/material/GeneralConsiderations.md) for details.  
+> 詳細內容請參考[通用考量項目](https://github.com/retamotome/SelfDirectedTraining/blob/main/AgileSoftwareEngineering/2025-12-08_BusinessReqDef/material/GeneralConsiderations.md)  
 
 #### Non-Functional Requirements ｜ 非功能性需求
 
@@ -107,7 +107,7 @@ Users frequently encounter login failures due to unclear error messages and inco
 
 | Type (類型)      | Description (說明)                          |
 | --------- | ------------------------------------ | 
-| Assumption (假設條件) | Assumed condition 預設成立之條件   |
+| Assumption (假設條件) | Assumed condition (預設成立之條件)   |
 | Dependency (相依項目) | External dependency (外部系統或服務依賴) | 
 
 ---

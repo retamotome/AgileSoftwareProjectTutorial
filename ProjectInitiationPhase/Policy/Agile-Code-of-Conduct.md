@@ -1,4 +1,4 @@
-# Agile Code of Conduct 敏捷準則  
+# Agile Code of Conduct｜敏捷準則  
 
 ## Statement for Employees｜晉用聲明
 
