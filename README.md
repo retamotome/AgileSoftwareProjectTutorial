@@ -1,4 +1,6 @@
-# Agile Software Project Tutorial｜敏捷軟體專案指南
+# Agile Software Project Guide｜敏捷軟體專案指南  
+
+![Agile Software Project Guide](./img/AgileSoftwareProjectGuide.png)
 
 A concise, phase-based guide for planning and executing Agile software projects. This repository documents each project phase, recommended practices, and links to supporting videos and artifacts.  
 本指南提供以「階段」為主軸的精簡指南，說明如何規劃與執行敏捷軟體專案。本儲存庫涵蓋各專案階段、建議實務，以及相關教學影片與產出文件連結。
