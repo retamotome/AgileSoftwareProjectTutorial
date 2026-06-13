@@ -16,8 +16,8 @@ A concise, phase-based guide for planning and executing Agile software projects.
 * Strengthen team collaboration and Agile processes.  
   強化團隊協作與敏捷流程運作。
 
-Tutorial videos are available in the [Self-Directed Training](https://github.com/retamotome/SelfDirectedTraining).  
-教學影片可參考 [Self-Directed Training](https://github.com/retamotome/SelfDirectedTraining) 儲存庫。  
+Tutorial videos are available in the [Self-Directed Learning Guide](https://github.com/retamotome/SelfDirectedTraining).  
+教學影片可參考 [Self-Directed Learning Guide](https://github.com/retamotome/SelfDirectedTraining) 儲存庫。  
 
 ## Tutorial Overview｜指南總覽
 
